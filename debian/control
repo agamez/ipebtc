@@ -1,0 +1,12 @@
+Source: ipebtc
+Section: net
+Priority: extra
+Maintainer: Álvaro Gámez Machado <alvaro.gamez@hazent.com>
+Build-Depends: cdbs, debhelper, config-package-dev (>= 4.5~)
+Standards-Version: 3.9.0
+
+Package: ipebtc
+Architecture: all
+Depends: ${misc:Depends}, iptables, ebtables
+Description: ipebtc app package
+ This is the ipebtc app packaged.
